@@ -5,13 +5,16 @@
  */
 package ec.edu.intsuperior.vista;
 
-import ec.edu.intsuperior.modelo.Clase1;
+import ec.edu.intsuperior.modelo.Auto;
 
 public class Aplicacion {
     
     public static void main(String[] args) {
-        Clase1 obj=new Clase1();
-        obj.salida(p);
+        Auto a1=new Auto();
+        a1 = new Auto();
+        
+        Auto pl1=new Auto();
+        pl1.placa();
         
    
 }
